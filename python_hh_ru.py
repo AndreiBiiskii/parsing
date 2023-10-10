@@ -1,5 +1,3 @@
-import json
-
 import requests
 from fake_headers import Headers
 from bs4 import BeautifulSoup
@@ -33,7 +31,6 @@ for article in articles:
         'Зарплата': salary,
         'Компания': company,
         'Город': city,
-
 
     })
 pprint(vacancy_list)
